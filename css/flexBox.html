@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 500px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .box1 {
+            width: 100%;
+            height: 200px;
+            background-color: lightblue;
+        }
+        .box2 {
+            flex-grow: 1;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box2">文字</div>
+    </div>
+</body>
+</html></html>
